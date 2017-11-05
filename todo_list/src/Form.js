@@ -34,11 +34,11 @@ class Form extends Component{
 	render(){
 		return(
 			<div>
-			<form>
-			<h1>This is the To-Do list</h1>
-			<textarea name="inputValue" type="text" placeholder=" what to do" onChange={this.handleForm} value={this.state.inputValue}/>
-			<button onClick={this.handleSubmit}>Add To-Do</button>
-			</form>
+				<form>
+				<h1>This is the To-Do list</h1>
+				<textarea name="inputValue" type="text" placeholder=" what to do" onChange={this.handleForm} value={this.state.inputValue}/>
+				<button onClick={this.handleSubmit}>Add To-Do</button>
+				</form>
 			</div>
 
 
